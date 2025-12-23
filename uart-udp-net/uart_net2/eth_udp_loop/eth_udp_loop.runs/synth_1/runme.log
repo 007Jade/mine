@@ -1,0 +1,37 @@
+
+*** Running vivado
+    with args -log eth_udp_loop.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source eth_udp_loop.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source eth_udp_loop.tcl -notrace
+Command: synth_design -top eth_udp_loop -part xc7a35tfgg484-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 14208 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 465.559 ; gain = 97.762
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'eth_udp_loop' [W:/vivado/DemoStudy/51_eth_udp_loop/rtl/eth_udp_loop.v:23]
+	Parameter BOARD_MAC bound to: 48'b000000000001000100100010001100110100010001010101 
+	Parameter BOARD_IP bound to: -1062731510 - type: integer 
+	Parameter DES_MAC bound to: 48'b111111111111111111111111111111111111111111111111 
+	Parameter DES_IP bound to: -1062731418 - type: integer 
+	Parameter IDELAY_VALUE bound to: 0 - type: integer 
+ERROR: [Synth 8-439] module 'clk_wiz_0' not found [W:/vivado/DemoStudy/51_eth_udp_loop/rtl/eth_udp_loop.v:112]
+ERROR: [Synth 8-6156] failed synthesizing module 'eth_udp_loop' [W:/vivado/DemoStudy/51_eth_udp_loop/rtl/eth_udp_loop.v:23]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 521.684 ; gain = 153.887
+---------------------------------------------------------------------------------
+RTL Elaboration failed
+INFO: [Common 17-83] Releasing license: Synthesis
+3 Infos, 0 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Synthesis failed - please see the console or run log file for details
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 18 19:56:37 2025...

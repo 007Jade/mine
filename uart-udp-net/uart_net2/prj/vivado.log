@@ -1,0 +1,66 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Wed Nov 19 07:17:39 2025
+# Process ID: 10248
+# Current directory: C:/Users/Lenovo/Desktop/uart_net2/prj
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18484 C:\Users\Lenovo\Desktop\uart_net2\prj\eth_udp_loop.xpr
+# Log file: C:/Users/Lenovo/Desktop/uart_net2/prj/vivado.log
+# Journal file: C:/Users/Lenovo/Desktop/uart_net2/prj\vivado.jou
+# Running On: DESKTOP-ENJRKMF, OS: Windows, CPU Frequency: 2419 MHz, CPU Physical cores: 4, Host memory: 16863 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Lenovo/Desktop/uart_net2/prj/eth_udp_loop.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'W:/vivado/DemoStudy/uart_net2/prj' since last save.
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at D:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-1877] Auto incremental dir location 'C:/Users/Admin/Desktop/7020/28_eth_udp_loop/prj/eth_udp_loop.srcs/utils_1/imports/synth_1' of run 'synth_1' is not writable, setting it to default location 'C:/Users/Lenovo/Desktop/uart_net2/prj/eth_udp_loop.srcs/utils_1/imports/synth_1'.
+INFO: [Project 1-1877] Auto incremental dir location 'C:/Users/A7/ATK/ETH/eth_udp_loop/prj/eth_udp_loop.srcs/utils_1/imports/async_fifo_2048x8b_synth_1' of run 'async_fifo_2048x8b_synth_1' is not writable, setting it to default location 'C:/Users/Lenovo/Desktop/uart_net2/prj/eth_udp_loop.srcs/utils_1/imports/async_fifo_2048x8b_synth_1'.
+INFO: [Project 1-1877] Auto incremental dir location 'C:/Users/A7/ATK/ETH/eth_udp_loop/prj/eth_udp_loop.srcs/utils_1/imports/clk_wiz_0_synth_1' of run 'clk_wiz_0_synth_1' is not writable, setting it to default location 'C:/Users/Lenovo/Desktop/uart_net2/prj/eth_udp_loop.srcs/utils_1/imports/clk_wiz_0_synth_1'.
+INFO: [Project 1-1877] Auto incremental dir location 'C:/Users/Admin/Desktop/7020/28_eth_udp_loop/prj/eth_udp_loop.srcs/utils_1/imports/impl_1' of run 'impl_1' is not writable, setting it to default location 'C:/Users/Lenovo/Desktop/uart_net2/prj/eth_udp_loop.srcs/utils_1/imports/impl_1'.
+INFO: [Project 1-1877] Auto incremental dir location 'C:/Users/A7/ATK/ETH/eth_udp_loop/prj/eth_udp_loop.srcs/utils_1/imports/async_fifo_2048x8b_impl_1' of run 'async_fifo_2048x8b_impl_1' is not writable, setting it to default location 'C:/Users/Lenovo/Desktop/uart_net2/prj/eth_udp_loop.srcs/utils_1/imports/async_fifo_2048x8b_impl_1'.
+INFO: [Project 1-1877] Auto incremental dir location 'C:/Users/A7/ATK/ETH/eth_udp_loop/prj/eth_udp_loop.srcs/utils_1/imports/clk_wiz_0_impl_1' of run 'clk_wiz_0_impl_1' is not writable, setting it to default location 'C:/Users/Lenovo/Desktop/uart_net2/prj/eth_udp_loop.srcs/utils_1/imports/clk_wiz_0_impl_1'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2022.2/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'async_fifo_2048x8b' is locked:
+* IP definition 'FIFO Generator (13.2)' for IP 'async_fifo_2048x8b' (customized with software release 2020.2) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'clk_wiz_0' is locked:
+* IP definition 'Clocking Wizard (6.0)' for IP 'clk_wiz_0' (customized with software release 2020.2) has a different revision in the IP Catalog.
+open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:00:14 . Memory (MB): peak = 1145.719 ; gain = 327.348
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 19 23:04:22 2025...
+ess appears to be on host 'ASLAN6D2A' and cannot be killed from host 'DESKTOP-ENJRKMF'
+
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Wed Nov 19 07:18:57 2025] Launched synth_1...
+Run output will be captured here: C:/Users/Lenovo/Desktop/uart_net2/prj/eth_udp_loop.runs/synth_1/runme.log
+[Wed Nov 19 07:18:57 2025] Launched impl_1...
+Run output will be captured here: C:/Users/Lenovo/Desktop/uart_net2/prj/eth_udp_loop.runs/impl_1/runme.log
+reset_run impl_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 19 22:06:51 2025...
